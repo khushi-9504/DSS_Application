@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/event"
+            android:title="@string/menu_event" />
+        <item
+            android:id="@+id/nav_visitor"
+            android:icon="@drawable/visitor"
+            android:title="@string/menu_visitor" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/bell"
+            android:title="@string/menu_noti" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/complain"
+            android:title="@string/menu_complaint" />
+        <item
+            android:id="@+id/nav_addcomplaint"
+            android:icon="@drawable/complain"
+            android:title="@string/menu_acomplaint" />
+        <item
+            android:id="@+id/nav_wing"
+            android:icon="@drawable/building"
+            android:title="@string/menu_wing" />
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/workers"
+            android:title="@string/menu_staff" />
+        <item
+            android:id="@+id/nav_income"
+            android:icon="@drawable/cash"
+            android:title="@string/menu_income" />
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/expenses"
+            android:title="@string/menu_expense" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="@string/menu_logout" />
+
+    </group>
+</menu>

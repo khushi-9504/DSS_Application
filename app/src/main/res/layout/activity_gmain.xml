@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bc_new"
+    tools:context=".GMainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_gname"
+        android:layout_width="match_parent"
+        android:text="Guard Name:-"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bt_addvisitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Visitor"
+        android:layout_below="@+id/tv_gname"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        app:backgroundTint="@color/signupColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shapelogin"/>
+    <Button
+        android:id="@+id/bt_visitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visitor List"
+        android:visibility="gone"
+        android:layout_below="@+id/bt_addvisitor"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        app:backgroundTint="@color/signupColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shapelogin"/>
+        <Button
+            android:id="@+id/bt_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_below="@+id/bt_addvisitor"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            app:backgroundTint="@color/signupColor"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapelogin"/>
+    </RelativeLayout>
+</RelativeLayout>
