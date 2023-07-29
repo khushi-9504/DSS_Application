@@ -18,6 +18,9 @@
         android:theme="@style/Theme.DSS"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".OTPVerification"
+            android:exported="false" />
+        <activity
             android:name=".Login2"
             android:exported="false" />
         <activity
