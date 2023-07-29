@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -18,16 +18,19 @@
         android:theme="@style/Theme.DSS"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ui.AddvisitorActivity"
-            android:label="Add Visitor"
+            android:name=".Login2"
             android:exported="false" />
+        <activity
+            android:name=".ui.AddvisitorActivity"
+            android:exported="false"
+            android:label="Add Visitor" />
         <activity
             android:name=".SwingActivity"
             android:exported="false" />
         <activity
             android:name=".GMainActivity"
-            android:label="Guard Dashboard"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Guard Dashboard" />
         <activity
             android:name=".GLoginActivity"
             android:exported="false" />
@@ -36,8 +39,8 @@
             android:exported="false" />
         <activity
             android:name=".ui.GMemberActivity"
-            android:label="Wing Member"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Wing Member" />
         <activity
             android:name=".ui.PayMActivity"
             android:exported="false"
