@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/app_bc_new"
     tools:context=".GMainActivity">
+
+    l
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
